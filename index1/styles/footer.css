@@ -26,6 +26,7 @@ footer{
 .footer-text ul li{
     font-size: 16px;
     margin: 10px 0;
+    list-style: none;
 }
 .copywrite{
     padding: 12px 0;
