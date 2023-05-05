@@ -1,5 +1,5 @@
 :root{
-    --tex-color:#353535;
+    --text-color:#353535;
     --background-pink:#F5E2F5;
     --background-grey:#d5d5d5;
  
@@ -7,7 +7,6 @@
 
 main{
     margin: 50px;
-
 }
 img{
     width: 255px;
@@ -18,18 +17,33 @@ h2{
     font-size: 16px;
 }
 .img-text button{
-    text-align: left;
+    text-align: center;
     padding: 12px 5px;
-    width: 150PX;
+    width: 120PX;
     border: none;
+    border-radius: 25px;
     background-color: var(--background-grey);
+    /* transition: 2s ease-in-out; */
+}
+.img-text button:hover{
+    background-color: var(--background-pink);
+    border: 1px solid var(--background-grey);
 }
 .heading{
-    margin: 250px 0 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    /* margin: 250px 0 100px; */
 }
 .heading h1{
     text-align: center;
-    color: var(--text-color);
+    color: #fff;;
+    font-size: 40px;
+}
+.heading p{
+    text-align: center;
+    color: #fff;
 }
 .top{
     display: flex;
@@ -56,12 +70,29 @@ h2{
     border: none;
     background-color: var(--background-grey);
    margin-right: 50px;
+   border-radius: 25px;
+}
+a{
+    color: var(--text-color);
+    font-weight: 100px;
+}
+.social button:hover{
+    border: 2px solid var(--background-grey);
+    background-color: var(--background-pink);
 }
 .social a i{
     color: var(--text-color);
-    margin-right: 10px;
-    height: 20;
-    width: 20;
+    margin: 15px;
+    transition:  20s ease-in-out;
+}
+.social a:hover{
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid var(--background-grey);
+    background-color: var(--background-pink);
+    
+   
 }
 .img2{
     display: flex;
@@ -105,7 +136,7 @@ h2{
     background-color: var(--background-grey);
     width: 150px;
     border: none;
-    padding: 12px 5px;
+    padding: 15px 5px;
 }
 .view a{
     color: var(--text-color);
