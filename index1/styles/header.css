@@ -23,6 +23,14 @@ header{
     /* padding: 20px; */
     padding: 20px 0;
 }
+select{
+    border: none;
+    background-color: var(--background-pink);
+}
+option{
+    font-size: 16px;
+    padding: 7px;
+}
 .socials, .number{
     margin: 0 50px 0 50px;
     display: flex;
@@ -125,10 +133,10 @@ h3{
 .nav ul li:hover{
     text-align: center;
   
-    border-radius: 25px;
+    
     width: 100px;
     background-color: var(--background-grey);
-    padding: 12PX;
+    padding: 10PX;
     font-weight: bold;
     transition: 0.1s;
     text-transform: capitalize;

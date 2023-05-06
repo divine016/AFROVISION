@@ -60,7 +60,7 @@ footer{
 .social-footer a{
     color: #000;
 }
-select{
+.select{
     border: none;
     background-color: var(--background-grey);
     padding: 12px;
